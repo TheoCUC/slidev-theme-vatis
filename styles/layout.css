@@ -25,7 +25,12 @@
   h1 {
     @apply absolute left-0 top-21.8 px-5 py-2 bg-yellow-300 text-2xl text-bold;
   }
-
+  h2 {
+    @apply text-2xl py-3
+  }
+  h3 {
+    @apply text-xl font-500 -ml-[0.05em]
+  }
   p {
     @apply text-xl
   }
