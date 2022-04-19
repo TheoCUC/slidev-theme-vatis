@@ -18,7 +18,7 @@ export default defineComponent({
 
 <template>
     <div>
-        <img src="vatis.png" class="w-30 m-5 absolute top-0 right-0">
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/vatis.png" class="w-30 m-5 absolute top-0 right-0">
         <div>Part {{ id }}</div>
         <div class="slidev-layout intro h-1/4 my-50 bg-[#052780] text-white font-bold z-100" absolute top-60>
             <div class="my-auto z-100">

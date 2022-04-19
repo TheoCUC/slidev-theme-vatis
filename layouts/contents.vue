@@ -1,7 +1,7 @@
 <template>
     <div>
-        <img src="cuc.png" class="w-15 mx-5 my-4 absolute">
-        <img src="vatisBar.png" class="mt-0" />
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/cuc.png" class="w-15 mx-5 my-4 absolute">
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/vatisBar.png" class="mt-0" />
         <div class="slidev-layout default w-full">
             <div class="text-white text-4xl absolute top-6 left-0 mx-auto w-full text-center font-semibold">目录</div>
         </div>
@@ -20,6 +20,6 @@
         </div>
 
 
-        <img src="bottomBar.png" class="absolute bottom-0">
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/bottomBar.png" class="absolute bottom-0">
     </div>
 </template>

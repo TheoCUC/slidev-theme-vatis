@@ -12,8 +12,8 @@ export default defineComponent({
 </script>
 <template>
     <div>
-        <img src="cuc.png" class="w-15 mx-5 my-4 absolute">
-        <img src="vatisBar.png" class="mt-0" />
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/cuc.png" class="w-15 mx-5 my-4 absolute">
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/vatisBar.png" class="mt-0" />
         <div class="slidev-layout default w-full mt-3">
             <div class="my-auto">
                 <div class="text-white text-4xl absolute top-6 left-0 mx-auto w-full text-center font-semibold">{{$slidev.configs.contents[id-1]}}</div>
@@ -21,6 +21,6 @@ export default defineComponent({
             </div>
         </div>
         <div class="z-10 absolute bottom-2 left-8 text-white font-black">{{$slidev.nav.currentPage}}</div>
-        <img src="bottomBar.png" class="absolute bottom-0">
+        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/bottomBar.png" class="absolute bottom-0">
     </div>
 </template>
