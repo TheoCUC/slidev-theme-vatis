@@ -16,22 +16,36 @@
     @apply -mt-2 opacity-50 mb-4;
   }
 
-  p + h2, ul + h2, table + h2 {
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 }
 
 .slidev-layout.default {
   h1 {
-    @apply absolute left-0 top-21.8 px-5 py-2 bg-yellow-300 text-2xl text-bold;
+    /* @apply bg-yellow-300 flex-1; */
+    /* @apply absolute inset-x-0 top-0 bg-yellow-300 text-2xl text-bold flex py-2 px-6; */
+    @apply text-blue-900 font-black text-xl tracking-wide font-500 -ml-[1em];
+    /* right: unset; */
   }
+  /* h2 {
+    @apply text-2xl py-3;
+  } */
+  /* h3 {
+    @apply text-xl font-500 -ml-[0.05em];
+  } */
+  
   h2 {
-    @apply text-2xl py-3
+    @apply text-base text-indigo-900 font-bold uppercase tracking-widest font-500;
   }
-  h3 {
-    @apply text-xl font-500 -ml-[0.05em]
-  }
+
   p {
-    @apply text-xl
+    /* @apply text-xl; */
+  }
+  
+  th, td{
+    border: 0;
   }
 }

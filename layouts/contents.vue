@@ -1,11 +1,11 @@
 <template>
     <div>
-        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/cuc.png" class="w-15 mx-5 my-4 absolute">
-        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/vatisBar.png" class="mt-0" />
+        <img src="/cuc.png" class="w-15 left-5 top-3 absolute">
+        <img src="/vatisBar.png" class="mt-0" />
         <div class="slidev-layout default w-full">
             <div class="text-white text-4xl absolute top-6 left-0 mx-auto w-full text-center font-semibold">目录</div>
         </div>
-        <div class="px-20 max-h-80 flex flex-col flex-wrap">
+        <div class="max-h-80 flex flex-col flex-wrap content-center justify-center gap-x-5">
             <div v-for="(item, index) in $slidev.configs.contents">
                 <div class="flex my-2">
                     <div
@@ -18,8 +18,6 @@
             </div>
 
         </div>
-
-
-        <img src="https://isaacpic-1305775614.cos.ap-beijing.myqcloud.com/uPic/bottomBar.png" class="absolute bottom-0">
+        <img src="/bottomBar.png" class="absolute bottom-0">
     </div>
 </template>

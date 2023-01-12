@@ -26,10 +26,10 @@
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
-      "colorSchema": "auto",
+      "colorSchema": "light",
       "aspectRatio": "16/10",
       "fonts": {
         "sans": "HarmonyOS Sans SC",
