@@ -11,7 +11,7 @@ export default defineComponent({
 });
 </script>
 <template>
-    <div>
+    <div class="relative h-full">
         <img src="/cuc.png" class="w-15 absolute top-2 left-5" />
         <img src="/vatisBar.png" class="mt-0 visible" />
         <div class="text-white text-4xl absolute top-6 left-0 mx-auto w-full text-center font-semibold">
