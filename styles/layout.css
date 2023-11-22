@@ -27,7 +27,7 @@
   h1 {
     /* @apply bg-yellow-300 flex-1; */
     /* @apply absolute inset-x-0 top-0 bg-yellow-300 text-2xl text-bold flex py-2 px-6; */
-    @apply text-blue-900 font-black text-xl tracking-wide font-500 -ml-[1em];
+    @apply text-blue-900 font-black text-2xl tracking-wide font-500 -ml-[1em];
     /* right: unset; */
   }
   /* h2 {
@@ -43,9 +43,15 @@
 
   p {
     /* @apply text-xl; */
+    @apply text-xl
   }
   
   th, td{
     border: 0;
+    @applt text-xl
+  }
+
+  li {
+    @apply text-xl my-3
   }
 }
